@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="EditTextRecipesActivity">
+    <item name = "android:layout_marginHorizontal"> 12dp</item>
+    <item name="android:background">@drawable/edit_deckground</item>
+    <item name="android:paddingVertical">7dp</item>
+    <item name="android:paddingStart">12dp</item>
+    <item name="android:inputType">text</item>
+    <item name="android:textSize">18sp</item>
+    <item name="android:singleLine">true</item>
+    <item name="android:imeOptions">actionDone</item>
+    <item name="android:layout_marginTop">16dp</item>
+</style>
+
+</resources>
