@@ -12,7 +12,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#B58F1F"
-        app:navigationIcon="@drawable/arrow_back_24"
         app:title="Добавить категорию"
         app:menu="@menu/action_save">
     </androidx.appcompat.widget.Toolbar>

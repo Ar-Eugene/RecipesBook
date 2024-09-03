@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/add_category"
+        android:id="@+id/categoryFragment"
         android:icon="@drawable/home_menu"
-        android:title="Добавить категорию"
-        android:orderInCategory="3" />
+        android:title="Добавить категорию" />
     <item
-        android:id="@+id/add_dish"
+        android:id="@+id/menuFragment"
         android:icon="@drawable/home_menu"
-        android:title="Добавить рецепт"
-        android:orderInCategory="3" />
+        android:title="Главный экран"/>
+    <item
+        android:id="@+id/recipesFragment"
+        android:icon="@drawable/home_menu"
+        android:title="Добавить рецепт" />
 </menu>

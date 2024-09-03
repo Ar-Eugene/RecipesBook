@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_green"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B58F1F"
+        android:elevation="4dp"
+        app:title="@string/app_name">
+    </androidx.appcompat.widget.Toolbar>
+    <EditText
+        android:id="@+id/dish_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edit_deckground"
+        android:paddingVertical="7dp"
+        android:drawableLeft="@drawable/search_econ_16x16"
+        android:paddingStart="12dp"
+        android:drawablePadding="10dp"
+        android:hint="Введите название блюда"
+        android:inputType="text"
+        android:textSize="18sp"
+        android:singleLine="true"
+        android:imeOptions="actionDone">
+    </EditText>
+
+
+
+</LinearLayout>
