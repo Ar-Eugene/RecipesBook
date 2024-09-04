@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/writToUsFragment"
+        android:icon="@android:drawable/ic_menu_send"
+        android:title="Написать в потдержку" />
+    <item
+        android:id="@+id/shareAppFragment"
+        android:icon="@drawable/add_shared"
+        android:title="Главный экран"/>
+   </group>
+    <item android:title="Настройки">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/recipesFragment"
+                    android:icon="@drawable/home_menu"
+                    android:title="Сменить тему" />
+            </group>
+        </menu>
+
+    </item>
+
+</menu>
